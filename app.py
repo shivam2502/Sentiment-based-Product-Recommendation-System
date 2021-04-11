@@ -3,13 +3,7 @@
 
 
 from flask import Flask, render_template, request, redirect, url_for, jsonify
-from scipy import sparse
-import pandas as pd
-import numpy as np
 import pickle
-import warnings
-warnings.filterwarnings("ignore")
-import xgboost
 from model import Recommendation
 
 recommend = Recommendation()
