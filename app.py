@@ -9,7 +9,7 @@ from model import Recommendation
 recommend = Recommendation()
 app = Flask(__name__)  # intitialize the flaks app  # common 
 
-@app.route('/', methods = ['POST', 'GET'])
+@app.route('https://capstonespm123.herokuapp.com/', methods = ['POST', 'GET'])
 def home():
     flag = False 
     data = ""
